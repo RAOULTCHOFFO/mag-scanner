@@ -1,0 +1,1 @@
+# Dépendances externes non nécessaires pour le MVP (stdlib only)

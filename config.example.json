@@ -1,0 +1,18 @@
+{
+  "rss_feeds": [
+    "https://www.imf.org/en/News/RSS",
+    "https://www.ecb.europa.eu/rss/press.html",
+    "https://www.oecd.org/finance/index.xml"
+  ],
+  "target_platforms": ["linkedin", "x", "facebook"],
+  "publishing": {
+    "mode": "dry_run",
+    "webhooks": {
+      "linkedin": "https://example.com/webhook/linkedin",
+      "x": "https://example.com/webhook/x",
+      "facebook": "https://example.com/webhook/facebook"
+    }
+  },
+  "database_path": "fincontent.db",
+  "language": "fr"
+}
